@@ -1,14 +1,12 @@
 //
 //  Streaming.swift
-//  Luno
+//  Elefantel
 //
 //  Created by Mpendulo Ndlovu on 2020/03/16.
-//  Copyright © 2020 Luno. All rights reserved.
+//  Copyright © 2020 Elefantel. All rights reserved.
 //
 
 import Foundation
-
-protocol WebSocketTask: URLSessionWebSocketTask { }
 
 protocol Streaming: AnyObject {
     var timer: Timer? { get }

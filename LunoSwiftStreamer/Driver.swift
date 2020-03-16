@@ -1,6 +1,6 @@
 //
 //  Driver.swift
-//  LunoStreamer
+//  Elefantel
 //
 //  Created by Mpendulo Ndlovu on 2020/03/16.
 //  Copyright © 2020 Elefantel. All rights reserved.
@@ -10,6 +10,7 @@ import Cocoa
 
 class Driver: NSViewController {
     private let bot = Bot(.sandpit)
+    private let exchangeService = ExchangeService(streamer: Streamer(endpoint: .exchange))
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,7 +18,6 @@ class Driver: NSViewController {
     }
     
     func stream() {
-        let exchangeService = ExchangeService(streamer: Streamer(endpoint: .exchange))
         exchangeService.streamOrderBook(
             pair: .btczar,
             completion: { [weak self] snapshot, update in

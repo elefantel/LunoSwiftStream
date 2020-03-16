@@ -1,6 +1,6 @@
 //
 //  Bot.swift
-//  LunoSwiftStreamer
+//  Elefantel
 //
 //  Created by Mpendulo Ndlovu on 2020/03/16.
 //  Copyright © 2020 Elefantel. All rights reserved.
@@ -36,7 +36,7 @@ class Bot {
         self.strategy = strategy
     }
     
-    func didReceive(snapshot: Snapshot?, update: Update?) {
+    func didReceive(snapshot: Codable?, update: Codable?) {
         if let snapshot = snapshot {
             print(snapshot)
         } else if let update = update {

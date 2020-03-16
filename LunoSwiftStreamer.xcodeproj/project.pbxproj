@@ -15,7 +15,7 @@
 		D156481224201A690014A841 /* ExchangeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D156480F24201A690014A841 /* ExchangeService.swift */; };
 		D156481624201A780014A841 /* Privileges.swift in Sources */ = {isa = PBXBuildFile; fileRef = D156481324201A780014A841 /* Privileges.swift */; };
 		D156481724201A780014A841 /* StreamError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D156481424201A780014A841 /* StreamError.swift */; };
-		D156481824201A780014A841 /* StreamModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D156481524201A780014A841 /* StreamModels.swift */; };
+		D156481824201A780014A841 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D156481524201A780014A841 /* Models.swift */; };
 		D156481B242029B30014A841 /* Bot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D156481A242029B30014A841 /* Bot.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +31,7 @@
 		D156480F24201A690014A841 /* ExchangeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeService.swift; sourceTree = "<group>"; };
 		D156481324201A780014A841 /* Privileges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Privileges.swift; sourceTree = "<group>"; };
 		D156481424201A780014A841 /* StreamError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamError.swift; sourceTree = "<group>"; };
-		D156481524201A780014A841 /* StreamModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamModels.swift; sourceTree = "<group>"; };
+		D156481524201A780014A841 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		D156481A242029B30014A841 /* Bot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +83,7 @@
 			children = (
 				D156481324201A780014A841 /* Privileges.swift */,
 				D156481424201A780014A841 /* StreamError.swift */,
-				D156481524201A780014A841 /* StreamModels.swift */,
+				D156481524201A780014A841 /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,7 +178,7 @@
 				D156481B242029B30014A841 /* Bot.swift in Sources */,
 				D156481624201A780014A841 /* Privileges.swift in Sources */,
 				D156481724201A780014A841 /* StreamError.swift in Sources */,
-				D156481824201A780014A841 /* StreamModels.swift in Sources */,
+				D156481824201A780014A841 /* Models.swift in Sources */,
 				D156481024201A690014A841 /* Streaming.swift in Sources */,
 				D156481224201A690014A841 /* ExchangeService.swift in Sources */,
 				D156480A242019CF0014A841 /* Driver.swift in Sources */,
